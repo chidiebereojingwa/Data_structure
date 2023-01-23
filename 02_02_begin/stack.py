@@ -26,3 +26,9 @@ class Stack:
         return len(self.items)
     
     def __str__(self):
+        return str(self.items)
+    
+
+if __name__ == "__main__":
+    s = Stack()
+    print(s)
